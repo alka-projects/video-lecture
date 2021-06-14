@@ -1,0 +1,21 @@
+.card2{
+    width: 12.8rem;
+    height: fit-content;
+    transition: transform .5s;
+    overflow: hidden;
+    
+    /* display: -webkit-inline-box;
+    flex: wrap; */
+ 
+}
+.cardimg2{
+     width: fit-content;
+     height: 18rem;
+}
+.card2:hover .cardimg{
+    opacity: 0.3;
+}
+.cd1{
+    background: black;
+    border-radius: 2%;
+}

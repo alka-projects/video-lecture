@@ -1,0 +1,24 @@
+.homebody{
+    background: #2f0131;
+    
+    color: white;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: block;
+      /* width: 100%;
+      height: 100%; */
+      position: absolute;
+      /* top: 0; */
+      left: 0;
+      right: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .homebody{
+        background: #2f0131;        
+        color: white;
+       
+    }
+}

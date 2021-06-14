@@ -1,0 +1,77 @@
+.card{
+   width: 16rem;
+   height: fit-content;
+   transition: transform .5s;
+   overflow: hidden;
+}
+.cardimg{
+    width: fit-content;
+    height: 12rem;
+}
+
+.link{
+    color: #dd06c0;
+}
+.link:hover{
+    text-decoration: none;
+    color: #dd06c0;
+}
+
+.play{
+    color: white;
+    font-size: xx-large; 
+    background-color: inherit; 
+    border: none;  
+}
+.play:hover{
+    color: #dd06c0;
+}
+
+.hii{
+    opacity: 0;
+    width: auto;
+    height: auto;
+    margin-left: -55%;
+    margin-bottom: -15%;
+    overflow: hidden;
+}
+
+.card:hover .cardimg{
+    opacity: 0.3;
+}
+.card:hover{
+    transform: scale(1.04);
+    overflow: visible;
+}
+.card:hover .hii{
+    opacity: 1;
+}
+
+.cd{
+    background: black;
+    border-radius: 2%;
+}
+
+.carousel-control-prev{
+    width: 2% !important;
+    opacity: 0 !important;
+}
+.carousel-control-next{
+    width: 2% !important;
+    opacity: 0 !important;
+}
+
+/* .carousel-control-prev:hover{
+    opacity: 1 !important;
+}
+
+.carousel-control-next:hover{
+    opacity: 1 !important;
+} */
+
+.carousel:hover .carousel-control-next{
+    opacity: 1 !important;
+}
+.carousel:hover .carousel-control-prev{
+    opacity: 1 !important;
+}

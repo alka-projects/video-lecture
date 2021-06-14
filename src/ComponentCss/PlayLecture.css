@@ -1,0 +1,11 @@
+.mar{
+    margin-top: 10%;
+}
+
+iframe:focus {
+    outline: none;
+  }
+  
+  iframe[seamless] {
+    display: block;
+  }
